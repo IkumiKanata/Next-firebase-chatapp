@@ -2,8 +2,9 @@ import Link from 'next/link';
 
 // Top navbar
 export default function Navbar() {
+
   const user = null;
-  const username = null;
+  const username = true;
 
   return (
     <nav className="navbar">
